@@ -1,0 +1,52 @@
+# Git ignore rules for NASDAQ Forecast project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments (machine-specific)
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook (cache)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Outputs (generated, not version-controlled)
+output/
+*.csv
+*.png
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
